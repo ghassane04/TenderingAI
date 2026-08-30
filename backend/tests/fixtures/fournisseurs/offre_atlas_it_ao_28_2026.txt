@@ -1,0 +1,17 @@
+FICHE FOURNISSEUR - JEU DE TEST
+Société : Atlas IT Démo
+Email : achats@atlas-it.example.test
+Appel d'offres : 28/2026
+
+Produit : Micro-ordinateur PC de bureau - Modèle ATLAS-SFF-13
+Format : SFF compact
+Processeur : Intel Core i5 13e génération, 14 cœurs, cache 24 Mo
+Mémoire vive : 16 Go DDR4, extensible à 64 Go, 2 emplacements DIMM
+Stockage : SSD 1 To PCIe NVMe M.2
+Réseau : RJ45 Gigabit Ethernet
+Écran : 23,8 pouces, 1920 x 1080
+Système : Windows 11 Professionnel OEM activé
+Suite bureautique : Microsoft Office LTSC Standard 2024
+Garantie : 3 ans sur site, pièces et main-d'œuvre
+
+Résultat attendu du jeu de test : offre globalement conforme aux exigences principales du prix 1.

@@ -1,0 +1,73 @@
+# Python
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+!.env.example
+!.env.test
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Tests / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking / lint
+.mypy_cache/
+.ruff_cache/
+
+# Documents 
+*.pdf
+*.docx
+*.xlsx
+*.xls
+
+# Local data folders
+
+data/
+uploads/
+outputs/
+
+
+#Config
+!config.py
+__pycache__/
+*.pyc
+!config.py.dist
+
+# uv
+uv.lock
+.python-version

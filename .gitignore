@@ -1,0 +1,21 @@
+# Repository contains only the two application packages.
+*
+!backend/
+!backend/**
+!frontend/
+!frontend/**
+!.gitignore
+!README.md
+
+# Never publish local credentials or generated artifacts.
+backend/.env
+frontend/.env
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/tmp/
+backend/output/
+backend/data/
+frontend/node_modules/
+frontend/dist/
+frontend/@/

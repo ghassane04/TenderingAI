@@ -1,0 +1,16 @@
+FICHE FOURNISSEUR - JEU DE TEST
+Société : Culture Tech Démo
+Email : ao@culture-tech.example.test
+Appel d'offres : 05/DAAF/BG/2026
+
+Produit : Client léger CT-512
+Processeur : Intel Core i5 génération récente
+Système d'exploitation : Windows 11 Professionnel IoT 64 bits français
+Mémoire : 8 Go DDR4 2400 MHz
+Stockage : SSD M.2 512 Go
+Réseau : Gigabit Ethernet
+Ports : HDMI, DisplayPort, USB 3.0
+Accessoires : clavier AZERTY, souris optique, support écran et câblage complet
+Licence : Office Professionnel Plus 2021 Open License Pack
+
+Résultat attendu du jeu de test : offre conforme aux exigences principales du prix 1.

@@ -1,0 +1,19 @@
+{
+  "code": "28/2026",
+  "client": "Ministère de la Justice, représenté par le directeur provincial de la Justice d'Agadir",
+  "object": "Acquisition, installation et mise en service de matériels informatiques pour le Palais de Justice de Taroudant",
+  "procedure": "Appel d'offres ouvert international sur offres de prix",
+  "lot": "Lot unique",
+  "delivery_days": 30,
+  "warranty_months": 36,
+  "provisional_bond_mad": 82000,
+  "price_type": "Prix unitaires fermes et non révisables",
+  "products": [
+    {"price_number": 1, "designation": "Micro-ordinateur (PC de bureau)", "unit": "U", "quantity": 200},
+    {"price_number": 2, "designation": "PC portable", "unit": "U", "quantity": 6},
+    {"price_number": 3, "designation": "Imprimante laser monochrome A4", "unit": "U", "quantity": 180},
+    {"price_number": 4, "designation": "Imprimante réseau laser couleur recto-verso automatique", "unit": "U", "quantity": 20},
+    {"price_number": 5, "designation": "Scanner professionnel A4", "unit": "U", "quantity": 80},
+    {"price_number": 6, "designation": "Scanner professionnel A3", "unit": "U", "quantity": 4}
+  ]
+}

@@ -1,0 +1,62 @@
+[project]
+name = "tendering-ia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.138.1",
+    "langchain-core>=1.4.8",
+    "langchain-google-genai>=4.2.6",
+    "langchain-ollama>=1.1.0",
+    "llama-index-core>=0.14.23",
+    "llama-index-embeddings-huggingface>=0.5.0",
+    "sentence-transformers>=3.0.0",
+    "numpy>=2.4.6",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "passlib[bcrypt]>=1.7.4",
+    "bcrypt>=4.0.1,<4.1",
+    "pdfplumber>=0.11.10",
+    "pydantic[email]>=2.13.4",
+    "pypdf>=6.14.2",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.2",
+    "python-jose[cryptography]>=3.3.0",
+    "python-multipart>=0.0.32",
+    "reportlab>=5.0.0",
+    "uvicorn>=0.49.0",
+    "psycopg[binary,pool]>=3.2.0",
+    "pytesseract>=0.3.13",
+    "pdf2image>=1.17.0",
+    "Pillow>=11.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "httpx>=0.28.0",
+    "langsmith[pytest]>=0.7.13",
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.25.0",
+    "pytest-cov>=6.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+    "api*",
+    "core*",
+    "database*",
+    "llm*",
+    "schemas*",
+    "services*",
+    "utils*",
+]
+namespaces = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+    "llm_eval: évaluations lentes qui exécutent le modèle Ollama local",
+]

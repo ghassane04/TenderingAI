@@ -1,0 +1,31 @@
+{
+  "code": "05/DAAF/BG/2026",
+  "client": "Ministère de la Jeunesse, de la Culture et de la Communication - Département de la Culture",
+  "object": "Fourniture et installation de matériels informatiques et de logiciels",
+  "procedure": "Appel d'offres ouvert international sur offres de prix",
+  "procedure_warning": "La couverture et le préambule indiquent un appel d'offres ouvert international, tandis que l'article 2 mentionne un appel d'offres national simplifié.",
+  "lot": "Lot unique",
+  "delivery_days": 30,
+  "warranty_months": 12,
+  "provisional_bond_mad": 45000,
+  "price_type": "Prix unitaires fermes et non révisables",
+  "products": [
+    {"price_number": 1, "designation": "Client léger"},
+    {"price_number": 2, "designation": "PC portable Workstation"},
+    {"price_number": 3, "designation": "Écran pour client léger"},
+    {"price_number": 4, "designation": "Écran pour Workstation"},
+    {"price_number": 5, "designation": "PC All in one"},
+    {"price_number": 6, "designation": "PC portable type 1"},
+    {"price_number": 7, "designation": "PC portable type 2"},
+    {"price_number": 8, "designation": "Imprimante laser monochrome noir et blanc"},
+    {"price_number": 9, "designation": "NVR"},
+    {"price_number": 10, "designation": "Scanner professionnel"},
+    {"price_number": 11, "designation": "Onduleur 1000 VA"},
+    {"price_number": 12, "designation": "Switch Datacenter manageable"},
+    {"price_number": 13, "designation": "Accessoires pour commutateur fédérateur existant"},
+    {"price_number": 14, "designation": "Switch d'accès 48 ports manageable PoE+"},
+    {"price_number": 15, "designation": "Switch d'accès 24 ports manageable PoE+"},
+    {"price_number": 16, "designation": "Switch NDR manageable PoE++"},
+    {"price_number": 17, "designation": "Solution de taxation VoIP"}
+  ]
+}
